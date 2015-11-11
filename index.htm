@@ -1,0 +1,49 @@
+<html> 
+<head><title>geoweb.m10 - Feedback</title></head> 
+<h2>Feedback-Formular</h2> 
+
+<form method="POST" action="feedback_send.php"> 
+ // kARTE
+  <input type="radio" name="geschlecht" value="Frau"/> Frau 
+  <input type="radio" name="geschlecht" value="Herr"/> Herr<br /> 
+  <table> 
+    <tr><td>Name:</td> 
+       <td><input type="text" name="name" size="50" /></td> 
+    </tr> 
+    <tr><td>E-Mail: </td> 
+       <td><input type="text" name="email" size="50" /></td> 
+    </tr> 
+  </table> 
+  <p>
+      Wie finden Sie unsere Homepage? <br/>
+      <input type="radio" name="Star" value="1"/> <img src="Stern.png" alt="Stern.png" Height=20 ></b> <br /> 
+      <input type="radio" name="Star" value="2"/> <img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ></b> <br /> 
+      <input type="radio" name="Star" value="3"/> <img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ></b> <br /> 
+      <input type="radio" name="Star" value="4"/> <img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ></b> <br /> 
+      <input type="radio" name="Star" value="5"/> <img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ><img src="Stern.png" alt="Stern.png" Height=20 ></b> <br /> 
+  <p>   
+  <p>
+      Wo haben Sie von uns erfahren ? <br/>
+      <select name="Quelle">
+        <option value="Internet">Internet</option>
+        <option value="TV">TV Spot</option>
+        <option value="Zettel">Flugblätter</option>
+        <option value="Freunde">Freunde und Bekannte</option>
+      </select>
+  <p> 
+  Feedback: <br /> 
+  <textarea name="message" rows="10" cols="50"></textarea> 
+  <br /> 
+  <input type="checkbox" name="team" checked="checked" value="ON" /> 
+         Ich bin Mitglied des geoweb-Teams <br /><br /> 
+  <input type="submit" value="Abschicken"> 
+  <input type="reset" value="Zurücksetzen"> <br /><br /> 
+  Ihr Feedback wird per E-Mail an die Autoren/innen zugestellt<br> 
+  und in der Projekt-Datenbank gespeichert.<br /><br /> 
+  <br /> 
+</form> 
+
+<p>geoweb.m10 (JB), Beispiel ausgehend von<br /> 
+<a href="http://www.thesitewizard.com/archive/feedbackphp.shtml"  
+target="_blank"> PHP Tutorial: Feedback Form Script</a> </p>
+</html> 
