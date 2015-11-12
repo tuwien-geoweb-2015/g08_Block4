@@ -1,6 +1,6 @@
-# OpenLayers Application Template
+# Instructor's repository for GeoWeb Block 4
 
-Basic app template for OpenLayers applications in an [npm](https://www.npmjs.com) and [CommonJS](http://www.commonjs.org) environment.
+This project exercises the use of OpenLayers and WFS to communicate with an SQLite database.
 
 ## Getting started
 

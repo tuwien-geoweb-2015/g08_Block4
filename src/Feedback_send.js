@@ -36,7 +36,7 @@ module.exports = function(form, feature, url, config) {
     var xhr = new XMLHttpRequest();
     xhr.open('POST', url);
     xhr.onload = function() {
-      alert('Danke für das Feedback');
+      alert('Danke fÃ¼r das Feedback');
       window.location.reload();
     }
     xhr.send(new XMLSerializer().serializeToString(data));
